@@ -1,0 +1,32 @@
+.logo {
+    width: 35px;
+    height: 35px;
+    background-color: #4B5563;
+}
+
+.type {
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+body {
+    background: linear-gradient(#374151, #111827);
+}
+
+li,
+p,
+h1,
+footer,
+div {
+    color: #FFFFFF;
+}
+
+.photo {
+    Width: 50px;
+    Height: 50px;
+    Top: 316px;
+    Left: 640px;
+}
