@@ -5,31 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="./style-register/style.css">
 </head>
 
 <body>
     <main>
         <h1>Регистрация</h1>
-        <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+        <p>Уже есть аккаунт? <a href="#" class="login">Войти</a></p>
         <form action="#" method="get">
-            <div>
+            <div class="company">
                 <label for="company">Моя компания</label>
                 <input type="text" name="company" id="company" placeholder="Введите название компании">
             </div>
-            <div>
+            <div class="name">
                 <label for="name">Имя Фамилия</label>
                 <input type="text" name="firts last name" id="name" placeholder="Введите Имя и Фамилию">
             </div>
-            <div>
+            <div class="e-mail">
                 <label for="email">E-mail</label>
                 <input type="email" name="email" id="email" placeholder="Введите E-mail">
             </div>
             <div>
                 <button>Зарегистрироваться</button>
             </div>
-            <div>
-                <input type="checkbox" name="agree" id="agree">
-                <label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+            <div class="agree">
+                <input type="checkbox" name="agree" id="agree" required>
+                <label for="agree">Я прочитал и принимаю <a href="#" class="check">Условия использования</a></label>
             </div>
         </form>
     </main>
