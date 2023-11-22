@@ -1,0 +1,32 @@
+main {
+    background-color: #1E1F29;
+}
+
+input,
+textarea,
+select {
+    background-color: #2E2D3D;
+}
+
+label {
+    color: #AFB2BF;
+}
+
+::placeholder,
+option,
+textarea,
+select {
+    color: #FAFAFA;
+}
+
+button {
+    background-color: #6C38CC;
+    color: #FAFAFA;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Fira Sans";
+    color: #FAFAFA;
+}

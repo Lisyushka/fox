@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
 </head>
+<link rel="stylesheet" href="./style-blog/style.css">
 
 <body>
     <header>
         <nav>
             <ul>
-                <li>В</li>
+                <div class="logo">
+                    <li class="type">В</li>
+                </div>
                 <li>Мой блог</li>
                 <li>HTML и CSS</li>
                 <li>Frontend</li>
@@ -19,7 +22,6 @@
             </ul>
             <form action="/test" method="get">
                 <div>
-                    <label for="query">Поиск</label>
                     <input placeholder="Поиск" type="text" id="query" name="search_query">
                 </div>
             </form>
@@ -27,10 +29,14 @@
     </header>
     <main>
         <p>FRONTEND
-            12 мая 2024</p>
-        <h1>Теория цвета - Как цвет влияет на поведение <br> потребителей</h1>
-        <p>Наталья Васильева<br>
-            Разработчик</p>
+            <time>12 мая 2024</time>
+        </p>
+        <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
+        <div>
+            <img src="./img/Ellipse 1.png" class="photo">
+            Наталья Васильева
+            Разработчик
+        </div>
         <img src="./img/Rectangle 181.png" alt="Асбтракция в оранжевых оттенках">
         <p>Теория цвета — это особенности эмоционального восприятия человеком<br> тех или иных цветовых решений. Цвета и
             различные их
