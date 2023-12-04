@@ -1,3 +1,7 @@
+* {
+    color: #FFFFFF;
+}
+
 .logo {
     width: 35px;
     height: 35px;
@@ -5,23 +9,17 @@
 }
 
 .type {
-    color: #FFFFFF;
     position: relative;
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22.63px;
 }
 
 body {
     background: linear-gradient(#374151, #111827);
-}
-
-li,
-p,
-h1,
-footer,
-div {
-    color: #FFFFFF;
 }
 
 .photo {
@@ -29,4 +27,64 @@ div {
     Height: 50px;
     Top: 316px;
     Left: 640px;
+}
+
+a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-decoration: none;
+}
+
+.blog {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+input {
+    background-color: rgba(31, 41, 55, 0.6);
+    color: #FFFFFF;
+}
+
+.heroText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.profession {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.sectionText p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
 }
