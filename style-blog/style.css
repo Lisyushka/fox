@@ -2,10 +2,43 @@
     color: #FFFFFF;
 }
 
-.logo {
-    width: 35px;
-    height: 35px;
-    background-color: #4B5563;
+body {
+    background: linear-gradient(#374151, #111827);
+}
+
+a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-decoration: none;
+}
+
+input {
+    background-color: rgba(31, 41, 55, 0.6);
+    color: #FFFFFF;
+    border-radius: 100px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+nav ul {
+    list-style: none;
 }
 
 .type {
@@ -18,22 +51,11 @@
     line-height: 22.63px;
 }
 
-body {
-    background: linear-gradient(#374151, #111827);
-}
-
 .photo {
     Width: 50px;
     Height: 50px;
     Top: 316px;
     Left: 640px;
-}
-
-a {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18.75px;
-    text-decoration: none;
 }
 
 .blog {
@@ -42,21 +64,10 @@ a {
     line-height: 21.09px;
 }
 
-input {
-    background-color: rgba(31, 41, 55, 0.6);
-    color: #FFFFFF;
-}
-
 .heroText {
     font-weight: 400;
     font-size: 14px;
     line-height: 16.41px;
-}
-
-h1 {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 38px;
 }
 
 .name {
@@ -75,16 +86,4 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-}
-
-p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-}
-
-footer {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
 }

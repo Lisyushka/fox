@@ -30,3 +30,11 @@ h1 {
     font-family: "Fira Sans";
     color: #FAFAFA;
 }
+
+input:invalid {
+    background-color: crimson;
+}
+
+input:valid {
+    background-color: forestgreen;
+}
