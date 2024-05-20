@@ -17,12 +17,19 @@ input {
     background-color: rgba(31, 41, 55, 0.6);
     color: #FFFFFF;
     border-radius: 100px;
+    padding: 71px 180px 69px 0;
+    width: 224px;
+    height: 40px;
 }
 
 h1 {
     font-weight: 400;
     font-size: 24px;
     line-height: 38px;
+    padding: 0 457px 30px 458px;
+    text-align: center;
+    width: 525px;
+    height: 76px;
 }
 
 p {
@@ -35,45 +42,82 @@ footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+    width: 226px;
+    height: 28px;
+    padding: 0 606px 77px 608px;
 }
 
 nav ul {
     list-style: none;
 }
 
-.type {
-    position: relative;
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22.63px;
-}
-
-.photo {
-    Width: 50px;
-    Height: 50px;
-    Top: 316px;
-    Left: 640px;
+.logo {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    padding: 72px 11px 73px 180px;
 }
 
 .blog {
-    font-weight: 400;
+    display: inline-block;
+    width: 80px;
+    height: 21px;
     font-size: 18px;
     line-height: 21.09px;
+    padding: 80px 77px 79px 0;
 }
+
+.css {
+    display: inline-block;
+    margin: 81px 52px 80px 0;
+    width: 90px;
+    height: 19px;
+}
+
+.frontend {
+    display: inline-block;
+    width: 64px;
+    height: 21px;
+    padding: 81px 39px 80px 0;
+}
+
+.backend {
+    display: inline-block;
+    width: 62px;
+    height: 19px;
+    padding: 81px 346px 80px 0;
+}
+
 
 .heroText {
     font-weight: 400;
     font-size: 14px;
     line-height: 16.41px;
+    padding: 0 630px 14px;
+    width: 180px;
+    height: 16px;
+}
+
+.photo {
+    Width: 50px;
+    Height: 50px;
 }
 
 .name {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
+}
+
+.program {
+    padding: 0 586px 28px 640px;
+}
+
+.picture {
+    width: 896px;
+    height: 594px;
+    padding: 0 272px 69px;
 }
 
 .profession {
@@ -86,4 +130,16 @@ nav ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+}
+
+.sectionText {
+    height: 101px;
+    text-align: left;
+    padding: 0 366px 208px;
+}
+
+.theory {
+    text-align: left;
+    height: 101px;
+    padding: 0 365px 90px 367px;
 }
