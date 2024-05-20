@@ -17,7 +17,7 @@ input {
     background-color: rgba(31, 41, 55, 0.6);
     color: #FFFFFF;
     border-radius: 100px;
-    padding: 71px 180px 69px 0;
+    margin: 71px 180px 69px 0;
     width: 224px;
     height: 40px;
 }
@@ -44,7 +44,7 @@ footer {
     line-height: 28px;
     width: 226px;
     height: 28px;
-    padding: 0 606px 77px 608px;
+    margin: 0 606px 77px 608px;
 }
 
 nav ul {
@@ -56,7 +56,7 @@ nav ul {
     width: 35px;
     height: 35px;
     border-radius: 3px;
-    padding: 72px 11px 73px 180px;
+    margin: 72px 11px 73px 180px;
 }
 
 .blog {
@@ -65,7 +65,7 @@ nav ul {
     height: 21px;
     font-size: 18px;
     line-height: 21.09px;
-    padding: 80px 77px 79px 0;
+    margin: 80px 77px 79px 0;
 }
 
 .css {
@@ -79,14 +79,14 @@ nav ul {
     display: inline-block;
     width: 64px;
     height: 21px;
-    padding: 81px 39px 80px 0;
+    margin: 81px 39px 80px 0;
 }
 
 .backend {
     display: inline-block;
     width: 62px;
     height: 19px;
-    padding: 81px 346px 80px 0;
+    margin: 81px 346px 80px 0;
 }
 
 
@@ -94,7 +94,7 @@ nav ul {
     font-weight: 400;
     font-size: 14px;
     line-height: 16.41px;
-    padding: 0 630px 14px;
+    margin: 0 630px 14px;
     width: 180px;
     height: 16px;
 }
@@ -111,13 +111,13 @@ nav ul {
 }
 
 .program {
-    padding: 0 586px 28px 640px;
+    margin: 0 586px 28px 640px;
 }
 
 .picture {
     width: 896px;
     height: 594px;
-    padding: 0 272px 69px;
+    margin: 0 272px 69px;
 }
 
 .profession {
@@ -132,14 +132,14 @@ nav ul {
     line-height: 30px;
 }
 
-.sectionText {
-    height: 101px;
-    text-align: left;
-    padding: 0 366px 208px;
-}
-
 .theory {
     text-align: left;
     height: 101px;
-    padding: 0 365px 90px 367px;
+    margin: 0 365px 110px 367px;
+}
+
+.sectionText {
+    height: 101px;
+    text-align: left;
+    margin: 0 366px 208px;
 }
