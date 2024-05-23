@@ -4,70 +4,50 @@
 
 body {
     background: linear-gradient(#374151, #111827);
+    margin: 0;
 }
 
-a {
+a,
+nav a {
     font-weight: 400;
     font-size: 16px;
     line-height: 18.75px;
     text-decoration: none;
 }
 
-input {
-    background-color: rgba(31, 41, 55, 0.6);
-    color: #FFFFFF;
-    border-radius: 100px;
-    margin: 71px 180px 69px 0;
-    padding: 12px 9px 12px 49px;
-}
-
-h1 {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 38px;
-    margin: 0 auto;
-    text-align: center;
-    width: 525px;
-    height: 76px;
-}
-
-p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-}
-
-footer {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    margin: 0 auto;
-}
-
 nav ul {
     list-style: none;
 }
 
-a,
-nav a {
-    font-size: 16px;
-    font-weight: 400px;
-    text-decoration: none;
-}
-
 .logo {
-    display: inline-block;
     width: 35px;
     height: 35px;
-    border-radius: 3px;
-    list-style: none;
+}
+
+input {
+    background-color: rgba(31, 41, 55, 0.6);
+    color: #FFFFFF;
+    border-radius: 100px;
+    margin: 71px 0 69px;
+    padding: 12px 9px 12px 49px;
 }
 
 .heroText {
     font-weight: 400;
     font-size: 14px;
     line-height: 16.41px;
-    margin: 0 630px 14px;
+    margin: 69px 0 14px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    margin: 14px 0 30px;
+}
+
+.program {
+    margin: 30px 0 28px;
 }
 
 .photo {
@@ -81,36 +61,37 @@ nav a {
     line-height: 28px;
 }
 
-.program {
-    margin: 0 586px 28px 640px;
-}
-
-.picture {
-    max-width: 896px;
-    max-height: 594px;
-    margin: 0 272px 69px;
-}
-
 .profession {
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
 }
 
-.sectionText p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+
+.picture {
+    max-width: 896px;
+    max-height: 594px;
+    margin: 28px 0 69px;
 }
 
-.theory {
+.theory p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
     text-align: left;
-    height: 101px;
-    margin: 0 365px 110px 367px;
+    margin: 69px 0 185px;
 }
 
 .sectionText {
     height: 101px;
     text-align: left;
-    margin: 0 366px 208px;
+    margin: 185px 0 111px;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 214px 606px 77px 608px;
+    margin: 185px 0 0 0;
 }
