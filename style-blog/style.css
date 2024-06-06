@@ -1,32 +1,97 @@
-.logo {
-    width: 35px;
-    height: 35px;
-    background-color: #4B5563;
-}
-
-.type {
+* {
     color: #FFFFFF;
-    position: relative;
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 body {
     background: linear-gradient(#374151, #111827);
+    margin: 0;
 }
 
-li,
-p,
-h1,
-footer,
-div {
+a,
+nav a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+}
+
+input {
+    background-color: rgba(31, 41, 55, 0.6);
     color: #FFFFFF;
+    border-radius: 100px;
+    margin: 71px 0 69px;
+    padding: 12px 9px 12px 49px;
+}
+
+.heroText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin: 69px 0 14px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    margin: 14px 0 30px;
+}
+
+.program {
+    margin: 30px 0 28px;
 }
 
 .photo {
     Width: 50px;
     Height: 50px;
-    Top: 316px;
-    Left: 640px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.profession {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+.picture {
+    max-width: 896px;
+    max-height: 594px;
+    margin: 28px 0 69px;
+}
+
+.theory p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    margin: 69px 0 185px;
+}
+
+.sectionText {
+    height: 101px;
+    text-align: left;
+    margin: 185px 0 111px;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 214px 606px 77px 608px;
+    margin: 185px 0 0 0;
 }
